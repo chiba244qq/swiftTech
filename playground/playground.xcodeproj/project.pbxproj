@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		21A0EC981D732F5800532203 /* NSOperation+Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0EC971D732F5800532203 /* NSOperation+Sync.swift */; };
 		21A0EC9A1D7330D900532203 /* NSExtOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0EC991D7330D900532203 /* NSExtOperation.swift */; };
+		21A0EC9C1D7473FC00532203 /* NSObject+AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A0EC9B1D7473FC00532203 /* NSObject+AppState.swift */; };
 		21E592991D72D48D00AA90B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E592981D72D48D00AA90B8 /* AppDelegate.swift */; };
 		21E5929B1D72D48D00AA90B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E5929A1D72D48D00AA90B8 /* ViewController.swift */; };
 		21E5929E1D72D48D00AA90B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E5929C1D72D48D00AA90B8 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		21A0EC971D732F5800532203 /* NSOperation+Sync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSOperation+Sync.swift"; sourceTree = "<group>"; };
 		21A0EC991D7330D900532203 /* NSExtOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSExtOperation.swift; sourceTree = "<group>"; };
+		21A0EC9B1D7473FC00532203 /* NSObject+AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+AppState.swift"; sourceTree = "<group>"; };
 		21E592951D72D48D00AA90B8 /* playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E592981D72D48D00AA90B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21E5929A1D72D48D00AA90B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				21A0EC971D732F5800532203 /* NSOperation+Sync.swift */,
 				21A0EC991D7330D900532203 /* NSExtOperation.swift */,
 				21E592BC1D72E51A00AA90B8 /* KVOClouser.swift */,
+				21A0EC9B1D7473FC00532203 /* NSObject+AppState.swift */,
 			);
 			name = Asset;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21A0EC9C1D7473FC00532203 /* NSObject+AppState.swift in Sources */,
 				21E592BD1D72E51A00AA90B8 /* KVOClouser.swift in Sources */,
 				21E592BB1D72D62200AA90B8 /* NSOperatoin+Timer.swift in Sources */,
 				21E5929B1D72D48D00AA90B8 /* ViewController.swift in Sources */,
